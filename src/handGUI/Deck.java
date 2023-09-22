@@ -8,9 +8,10 @@ import java.util.Random;
 
 public class Deck {
 
-	private List<Card> cards; // total cards
-	private List<Card> dealtCards; // cards drawn by dealer
+	public List<Card> cards; // total cards
+	public List<Card> dealtCards; // cards drawn by dealer
 	
+	// Constructor
 	public Deck() {
 		
 		addDeck();
